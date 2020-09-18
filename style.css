@@ -51,7 +51,7 @@ body {
 .Footer4 {
     grid-area: Footer4;
 }
-/*Vanlig desktop*/
+/*till en dator*/
 #container  {
     width: 89%;
     margin: 0 auto;
@@ -79,7 +79,7 @@ body {
   
 }
 
-/* Liten desktop */
+/* en liten dator*/
 
 @media screen and (max-width: 1200px) and (min-width: 960px) {
     #container {
@@ -147,7 +147,7 @@ body {
 }
 
 
-/* Mobil */
+/* till mobilen */
 
 @media screen and (max-width: 768px) {
     #container {
@@ -174,7 +174,7 @@ body {
 
         display: grid;
         gap: 2%;
-        padding: 10px;
+        padding: 5px;
         height: 100%;
         
     
