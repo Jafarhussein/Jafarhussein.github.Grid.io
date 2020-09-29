@@ -84,16 +84,15 @@ body {
 @media screen and (max-width: 1200px) and (min-width: 960px) {
     #container {
         width: 700px;
-        width: 89%;
+        width: 90%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-        "header header header header " 
-        "Box1 Box2 Box2 Box3 " 
-        "Content Content Sidebar Sidebar " 
-        "footer footer footer footer ";
+        grid-template-areas: "header header header header header header header header header header header header" 
+        "Box1 Box1 Box1 Box2 Box2 Box2 Box2 Box2 Box2 Box3 Box3 Box3" 
+        "Content Content Content Content Content Content Content Content Sidebar Sidebar Sidebar Sidebar" 
+        "footer footer footer footer footer footer footer footer footer footer footer footer ";
         gap: 2%;
     }
     .footer {
